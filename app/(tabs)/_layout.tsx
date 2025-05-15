@@ -40,6 +40,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+            <Tabs.Screen
+              name="JoesWweather"
+              options={{
+                title: 'Weather',
+                tabBarIcon: ({ color }) => <IconSymbol size={28} name="weather" color={color} />,
+              }}
+            />
     </Tabs>
   );
 }
